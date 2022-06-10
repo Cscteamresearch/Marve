@@ -16,7 +16,7 @@ import re
 from time import strftime
 
 
-print('I am JOHN, University of Abuja, Virtual assistant ')
+print('I am MARVE, University of Abuja, Virtual assistant ')
 
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
@@ -62,7 +62,7 @@ def takeCommand():
         return statement
 
 
-speak("I am JOHN, University of Abuja Virtual assistant")
+speak("I am MARVE, University of Abuja Virtual assistant")
 
 speak("i am created by the, computer science research team, under the guidance of, Dr. Hashim Bisallah")
 
@@ -83,8 +83,8 @@ if __name__ == '__main__':
             continue
 
         if "good bye" in statement or "ok bye" in statement or "stop" in statement:
-            speak('your  assistant, JOHN, is shutting down,Good bye')
-            print('your assistant, JOHN, is shutting down,Good bye')
+            speak('your  assistant, MARVE, is shutting down,Good bye')
+            print('your assistant, MARVE, is shutting down,Good bye')
             break
 
         if 'what is' in statement or 'where is' in statement:
@@ -150,7 +150,7 @@ if __name__ == '__main__':
             speak(f"the time is {strTime}")
 
         elif 'who are you' in statement or 'what can you do' in statement:
-            speak('I am, JOHN, version, 1 point O university of abuja, virtual assistant. I am programmed to, perform minor tasks like,'
+            speak('I am, MARVE, version, 1 point O university of abuja, virtual assistant. I am programmed to, perform minor tasks like,'
 
                   'opening youtube, tell you about the university of abuja, and also the, department of, of computer, science, google chrome,gmail and stackoverflow ,predict time,take a photo,search wikipedia,predict weather'
 

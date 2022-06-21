@@ -15,8 +15,7 @@ import sys
 import re
 from time import strftime
 
-
-print('I am MARVE, University of Abuja, Virtual assistant ')
+print('I am MARVE, Nodestech, Virtual assistant ')
 
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')

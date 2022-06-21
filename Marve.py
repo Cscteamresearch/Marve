@@ -43,8 +43,8 @@ def wishMe():
 
 def jokes():
     funny = pyjokes.get_jokes()
-    if "say a joke" in statement or "can can you tell me a joke" in statement:
-        joke()
+    if "say a joke" in statement or "can you tell me a joke" in statement:
+        jokes()
 
 
 def takeCommand():
@@ -62,9 +62,9 @@ def takeCommand():
         return statement
 
 
-speak("I am MARVE, University of Abuja Virtual assistant")
+speak("I am MARVE, NodesTech Virtual assistant")
 
-speak("i am created by the, computer science research team, under the guidance of, Dr. Hashim Bisallah")
+speak("i am created by NodesTech.")
 
 wishMe()
 
@@ -110,9 +110,9 @@ if __name__ == '__main__':
             speak("Google Mail open now")
             time.sleep(5)
 
-        elif 'open uniabuja website' in statement or "open the school website" in statement:
-            webbrowser.open_new_tab("uniabuja.edu.ng")
-            speak("uniabuja website noe open")
+        elif 'open nodeskoonet website' in statement or "open the socail website" in statement:
+            webbrowser.open_new_tab("https://nodeskoonet.com.ng")
+            speak("Nodeskoonet now open")
             time.sleep(5)
 
         elif "weather" in statement:
@@ -150,30 +150,16 @@ if __name__ == '__main__':
             speak(f"the time is {strTime}")
 
         elif 'who are you' in statement or 'what can you do' in statement:
-            speak('I am, MARVE, version, 1 point O university of abuja, virtual assistant. I am programmed to, perform minor tasks like,'
+            speak('I am, MARVE, version, 1 point 5 nodestech, virtual assistant. I am programmed to, perform minor tasks like,'
 
-                  'opening youtube, tell you about the university of abuja, and also the, department of, of computer, science, google chrome,gmail and stackoverflow ,predict time,take a photo,search wikipedia,predict weather'
+                  'opening youtube, tell you about the nodestech, google chrome,gmail and stackoverflow ,predict time,take a photo,search wikipedia,predict weather'
 
                   'in different cities , get top headline news, from top Nigeria, news agencies, and you can ask me computational or geographical questions too!')
 
         elif "who made you" in statement or "who created you" in statement or "who discovered you" in statement:
-            speak("I was built, by Computer Science, Research Team")
-            print("I was built by Computer Science Research Team")
+            speak("I was built, by Nodestech, Team")
+            print("I was built by Nodestech, Team")
 
-        elif "who is the vc of university of abuja" in statement:
-
-            speak("The vice Chancellor of the University of Abuja, is Prof. Abdul-Rasheed Na'Allah, he hails from Kwara state in Nigeria")
-            print("The vice Chancellor of the University of Abuja, is Prof. Abdul-Rasheed Na'Allah, he hails from Kwara state in Nigeria")
-
-        elif "who is the head of department of computer science" in statement:
-
-            speak(
-                "The current Head of Department of Computer Science is Doctor Hashim Bisallah")
-            print(
-                "The current Head of Department of Computer Science is Doctor Hashim Bisallah")
-
-        elif "what are the achievement of the vice chancellor in his two years of stay in office" in statement or "what has the v c achieve so far in the school" in statement or "what has the v c done so far in the school" in statement:
-            speak("")
 
         elif "open stackoverflow" in statement:
             webbrowser.open_new_tab("https://stackoverflow.com/login")
@@ -192,18 +178,6 @@ if __name__ == '__main__':
             statement = statement.replace("search", "")
             webbrowser.open_new_tab(statement)
             time.sleep(5)
-
-        elif 'tell me about computer science department' in statement:
-            speak(
-                "Let me give you, The brief History of the Department of Computer Science.")
-
-            speak("The Department was established, in February, 1991, and the current head of department, is Dr. Hashim Bisallah. it currently has, 20 full time, and 5 adjunct  academic staff. the current population of students, is 690 spread across 100 level to the 5th session.")
-
-            speak("Our Mission:, is to develop, and impact knowledge, and skills, in the field of computer science")
-
-            speak("Our vision:, (1).  An influential role in industry, and the information technology community, (2).  Sustaining high respect, for its research, and undergraduate education, (3).  Empowering our graduates, with the vision and confidence, required to become innovative, ICT leaders and techpreneurs. ")
-
-            speak("we offer admission into  BSC, PGD, MSC and PHD, in computer science.")
 
         elif 'ask' in statement:
             speak('I can answer to computational and geographical questions and what question do you want to ask now')

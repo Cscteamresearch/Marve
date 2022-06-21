@@ -189,51 +189,6 @@ if __name__ == '__main__':
             speak(answer)
             print(answer)
 
-        elif "history of university of abuja" in statement or "do you know the history of university of abuja" in statement:
-
-            speak("Let me tell you about the University of Abuja")
-
-            speak("The University of Abuja, was established, in January 1988, out of the need to provide, an institution of, higher learning, within Abuja, the new Federal Capital,"
-
-                  "whose objectives will be in stride, with the ideals that informed, the conception of the city.,"
-
-                  "The  matriculation, of pioneer students of, the University in 1990 marked, the beginning of its academic,"
-
-                  "work in its mini campus, Gwagwalada., In the same year, the University was allocated, an expanse of land,"
-
-                  "covering over 11,824 hectares, along Abuja-Airport Road, for the, development of its main campus., While development, of structures continued to grow,"
-
-                  "on the main campus of the University,  it has continued, to run  its regular, programmes in the mini campus, and its distance learning, programmes in Area 3 Garki.,"
-
-                  "To the Glory of God, most of the, University’s Faculties and the, Centre for Distance Learning,  have  now relocated to the, permanent site of the University,"
-
-                  "which is located less than,  ten minutes drive,  from the Nnamdi Azikwe, International Airport. ")
-
-            speak(
-                "the current vice chancellor of the university is, Prof. Abdul-Rasheed Na'Allah ")
-
-            speak("The University provides educational opportunities to all persons without distinction of race, gender, or political convictions,"
-
-                  "thus it is regarded as the University for National Unity, located in the centre of unity.'"
-
-                  "The University of Abuja has abundant potential, because of its favoured location, in the heart of the country.")
-
-        elif "vision of the university" in statement or "what about the vision of the school" in statement:
-
-            speak("Our Vision: To develop, an institution of, higher learning that, combines academic excellence with, the pursuit of the unity of Nigeria.")
-
-        elif "the mission of the university" in statement or "do you know the mission of the university" in statement:
-
-            speak("Our Mission: (1). To encourage the advancement of learning and, to hold out to all person, without distinction of race, creed, sex or political conviction, the opportunity of, acquiring higher liberal education;"
-
-                  "(2). To provide courses of instruction, and other facilities for the pursuit, of learning in all its branches. "
-
-                  "(3). To encourage and, promote scholarship, and conduct research in all fields, of learning and human endeavor. To relate its, activities to the social, cultural and economic, needs of the people of Nigeria."
-
-                  "(4). To undertake as part, of its academic, programmes distance learning, and continuing, education in various disciplines "
-
-                  "(5). To cater for the, interest of working, class or those who cannot, benefit from the full-time, university education, and to undertake, any other activities, appropriate for a University, of the highest standard.")
-
         elif 'time' in statement:
             import datetime
             now = datetime.datetime.now()
